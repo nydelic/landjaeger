@@ -9,7 +9,7 @@ interface RootLayoutProps {
 function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="de">
-      <body className="">{children}</body>
+      <body className="font-serif">{children}</body>
     </html>
   );
 }

@@ -46,12 +46,11 @@ async function ProjectPage({ params }: ProjectPageProps) {
     <div>
       <Link
         href="/"
-        className="fixed p-4 block top-0 left-0 transition-transform hover:-translate-x-1"
+        className="absolute p-4 block top-0 left-0 transition-transform hover:-translate-x-1"
       >
         &#8592; Home
       </Link>
       <div className="prose mx-auto max-w-3xl py-8 px-3">
-        <h1>{project.title}</h1>
         <div className="mb-4">
           <video
             controls
@@ -60,6 +59,7 @@ async function ProjectPage({ params }: ProjectPageProps) {
             src={`/projects/${project.id}.mp4`}
           />
         </div>
+        <h1>{project.title}</h1>
 
         <div dangerouslySetInnerHTML={{ __html: project.description }} />
       </div>

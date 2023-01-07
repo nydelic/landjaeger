@@ -1,7 +1,11 @@
-# A video by Florin Röösli
+2017 - 2022
 
-Lorem Ipsum
+video von Florin Röösli
 
-[link test](https://google.com)
+gefilmt in und um Bischofszell
 
-- List test
+Manuel Sennhauser  
+Jonas Engler  
+Niko Marić  
+Elena Sennhauser  
+Jonas Fetz
