@@ -52,11 +52,11 @@ async function ProjectPage({ params }: ProjectPageProps) {
       </Link> */}
       <div className="prose max-w-3xl">
         <div className="mb-4">
-          <video
-            controls
-            poster={`/projects/${project.id}.png`}
-            // className="rounded"
-            src={`/projects/${project.id}.mp4`}
+          <iframe
+            src={project["driver-embed"]}
+            width="640"
+            height="480"
+            allow="autoplay"
           />
         </div>
         <div>{project.title}</div>

@@ -7,7 +7,8 @@ A single project in that list needs the following shape:
 ```
 {
     "id": "unique-project-slug",
-    "title": "Project Title"
+    "title": "Project Title",
+    "drive-embed": "https://drive.google.com/file/d/xy"
 }
 ```
 
@@ -17,11 +18,13 @@ You can add such projects to the list into the array (array = square brackets `[
 [
     {
         "id": "unique-project-slug",
-        "title": "Project Title"
+        "title": "Project Title",
+        "drive-embed": "https://drive.google.com/file/d/xy"
     },
     {
         "id": "a-second-unique-project-slug",
-        "title": "Project 2 Title"
+        "title": "Project 2 Title",
+        "drive-embed": "https://drive.google.com/file/d/xy"
     }
 ]
 ```
@@ -38,7 +41,6 @@ Here is an example of the files (**which you need to upload to complete the proj
 
 ```
 public/projects/unique-project-slug.png -> The thumbnail of the project. Make sure you use a "png" image.
-public/projects/unique-project-slug.mp4 -> The main video of the project. Make sure you use a "mp4" video.
 public/projects/unique-project-slug.md -> The description of the project. Make sure you use a "md" file.
 ```
 
