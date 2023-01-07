@@ -44,12 +44,12 @@ async function ProjectPage({ params }: ProjectPageProps) {
   const project = await getProjectBySlug(params["project-slug"]);
   return (
     <div>
-      <Link
+      {/* <Link
         href="/"
         className="absolute p-4 block top-0 left-0 transition-transform hover:-translate-x-1"
       >
         &#8592; Home
-      </Link>
+      </Link> */}
       <div className="prose mx-auto max-w-3xl py-8 px-3">
         <div className="mb-4">
           <video
