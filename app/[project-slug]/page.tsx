@@ -43,23 +43,23 @@ export async function generateStaticParams() {
 async function ProjectPage({ params }: ProjectPageProps) {
   const project = await getProjectBySlug(params["project-slug"]);
   return (
-    <div>
+    <div className="text-sm">
       {/* <Link
         href="/"
         className="absolute p-4 block top-0 left-0 transition-transform hover:-translate-x-1"
       >
         &#8592; Home
       </Link> */}
-      <div className="prose mx-auto max-w-3xl py-8 px-3">
+      <div className="prose max-w-3xl">
         <div className="mb-4">
           <video
             controls
             poster={`/projects/${project.id}.png`}
-            className="rounded"
+            // className="rounded"
             src={`/projects/${project.id}.mp4`}
           />
         </div>
-        <h1>{project.title}</h1>
+        <div>{project.title}</div>
 
         <div dangerouslySetInnerHTML={{ __html: project.description }} />
       </div>
