@@ -1,7 +1,7 @@
 {
   "routes": [
     {
-      "src": "/(?<filepath>.+)\\.(?<ext>jpg)",
+      "src": "/projects/(?<filepath>.+)\\.(?<ext>mp4)",
       "dest": "https://media.githubusercontent.com/media/nydelic/landjaeger/develop/$filepath.$ext",
       "headers": {
         "Cache-Control": "s-maxage=31536000"
