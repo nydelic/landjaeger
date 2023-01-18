@@ -1,0 +1,8 @@
+{
+  "redirects": [
+    {
+      "source": "/projects/(.*).mp4",
+      "destination": "https://media.githubusercontent.com/media/nydelic/landjaeger/develop/public/projects/$1.mp4"
+    }
+  ]
+}
